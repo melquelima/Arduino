@@ -1,0 +1,11 @@
+E,180 = F
+D, 0  = F
+
+E, 0 = R
+D,180= R
+
+E,180 = F Esquerda
+D,180 = R
+
+E, 0  = R Direita
+D, 0  = F
