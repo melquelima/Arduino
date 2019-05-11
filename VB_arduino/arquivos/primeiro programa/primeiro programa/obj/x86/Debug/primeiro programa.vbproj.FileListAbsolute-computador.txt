@@ -1,0 +1,29 @@
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\bin\Debug\primeiro programa.exe
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\bin\Debug\primeiro programa.pdb
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\bin\Debug\primeiro programa.xml
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Debug\primeiro_programa.Form1.resources
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Debug\primeiro_programa.Resources.resources
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Debug\primeiro programa.exe
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Debug\primeiro programa.xml
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Debug\primeiro programa.pdb
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Debug\primeiro programa.exe
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Debug\primeiro programa.xml
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Debug\primeiro programa.pdb
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\bin\Debug\primeiro programa.exe
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\bin\Debug\primeiro programa.pdb
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\bin\Debug\primeiro programa.xml
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Debug\primeiro_programa.Form1.resources
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Debug\primeiro_programa.Resources.resources
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Debug\primeiro_programa.menu2.resources
+C:\Users\Ana Paula\OneDrive\Eletronica\Arduino\VB_arduino\arquivos\primeiro programa\primeiro programa\obj\x86\Debug\primeiro programa.exe
+C:\Users\Ana Paula\OneDrive\Eletronica\Arduino\VB_arduino\arquivos\primeiro programa\primeiro programa\obj\x86\Debug\primeiro programa.xml
+C:\Users\Ana Paula\OneDrive\Eletronica\Arduino\VB_arduino\arquivos\primeiro programa\primeiro programa\obj\x86\Debug\primeiro programa.pdb
+C:\Users\apoinario\OneDrive\Eletronica\Arduino\VB_arduino\arquivos\primeiro programa\primeiro programa\obj\x86\Debug\primeiro programa.exe
+C:\Users\apoinario\OneDrive\Eletronica\Arduino\VB_arduino\arquivos\primeiro programa\primeiro programa\obj\x86\Debug\primeiro programa.xml
+C:\Users\apoinario\OneDrive\Eletronica\Arduino\VB_arduino\arquivos\primeiro programa\primeiro programa\obj\x86\Debug\primeiro programa.pdb

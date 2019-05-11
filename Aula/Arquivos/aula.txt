@@ -1,0 +1,39 @@
+0 - variáveis
+1 - void setup e void loop
+2 - valores digitais
+3 - acender um led
+3.1 - Delay
+4 - ler uma porta digital
+5 - Condicionais
+6 - Serial
+7 - exercicios
+7.1 - acender um led enquanto pressionado um botao
+7.2 - replicar o código acima à 2 leds
+7.3 - mostre a frase "Hello World" na serial apenas uma vez
+8 - while
+9 - exercicios
+9.1 - acender um led enquanto pressionado um botao
+9.3 - printar os numeros de 1 a 100 na serial
+desafio - quando pressionado um botao mostre na serial quantas vezes ele foi pressionado
+10 - for
+11 - Exercicios
+11.1 - printar os numeros de 1 a 100 na serial
+11.2 - 
+12 - funções
+13 - exercícios
+13.1 - crie uma função que ao chama-la printe a frase "Hello World"
+13.2 - crie uma função que ao chama-la pisque um led duas vezes
+14 - operadores lógicos
+15 - parametros
+16 - exercícios
+16.1 - crie uma função que some dois numeros e retorne o resultado (mostre na serial)
+16.2 - crie uma função que leia dois botoes e retorne true caso os dois estjam pressionados (mostre na serial)
+16.3 - crie uma função que receba um numero e printe na serial de 0 ao numero recebido
+
+marcos vinicius duarte
+
+
+bb d c d' f d' f' d bb'
+
+
+

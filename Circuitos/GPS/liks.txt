@@ -1,0 +1,2 @@
+https://www.sunearthtools.com/pt/tools/distance.php
+http://carlosdelfino.eti.br/cursoarduino/geoprocessamento/calculando-distancias-com-base-em-coordenadas-de-gps/

@@ -1,0 +1,24 @@
+SerialExpansor leds(2); //Instancia a classe e defique qual pino sera ultilizado
+
+Void Setup(){}
+
+Void Loop(){
+leds.toogle(5);  // liga ou desliga determinada por toogle
+leds.seguencia(1,200); // seguencia as portas parametros direção e delay
+leds.comando("110101001"); //Seguencia de portas a serem acionadas
+leds.reset();
+}
+
+
+void toogle(int porta){
+
+array[porta-1] = !array[porta-1];
+
+}
+ 
+void comando(char* str){
+
+for(int i = 0; i<=7; i++){
+array[i] = str[i];
+}
+}

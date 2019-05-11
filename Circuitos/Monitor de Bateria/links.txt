@@ -1,0 +1,3 @@
+http://www.ledametrix.com/gcs/lowbat3.htm
+https://learn.sparkfun.com/tutorials/uh-oh-battery-level-indicator-hookup-guide
+https://cdn.sparkfun.com/datasheets/Kits/UhOh-v11_corrected.pdf

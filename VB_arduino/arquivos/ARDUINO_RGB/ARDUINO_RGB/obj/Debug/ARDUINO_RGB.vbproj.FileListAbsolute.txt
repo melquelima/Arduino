@@ -1,0 +1,15 @@
+C:\Users\apoinario\AppData\Local\Temporary Projects\ARDUINO_RGB\bin\Debug\ARDUINO_RGB.exe.config
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\bin\Debug\ARDUINO_RGB.exe.config
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\bin\Debug\ARDUINO_RGB.exe
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\bin\Debug\ARDUINO_RGB.pdb
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\bin\Debug\ARDUINO_RGB.xml
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\obj\Debug\ARDUINO_RGB.Form1.resources
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\obj\Debug\ARDUINO_RGB.Resources.resources
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\obj\Debug\ARDUINO_RGB.vbproj.GenerateResource.Cache
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\obj\Debug\ARDUINO_RGB.exe
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\obj\Debug\ARDUINO_RGB.xml
+C:\Users\apoinario\Documents\Visual Studio 2012\Projects\ARDUINO_RGB\ARDUINO_RGB\obj\Debug\ARDUINO_RGB.pdb
+C:\Users\apoinario\Desktop\ARDUINO_RGB\ARDUINO_RGB\bin\Debug\ARDUINO_RGB.exe.config
+C:\Users\apoinario\Desktop\ARDUINO_RGB\ARDUINO_RGB\obj\Debug\ARDUINO_RGB.exe
+C:\Users\apoinario\Desktop\ARDUINO_RGB\ARDUINO_RGB\obj\Debug\ARDUINO_RGB.xml
+C:\Users\apoinario\Desktop\ARDUINO_RGB\ARDUINO_RGB\obj\Debug\ARDUINO_RGB.pdb

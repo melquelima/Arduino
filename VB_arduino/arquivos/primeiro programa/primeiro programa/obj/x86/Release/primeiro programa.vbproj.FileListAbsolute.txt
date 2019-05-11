@@ -1,0 +1,14 @@
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\bin\Release\primeiro programa.exe
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\bin\Release\primeiro programa.pdb
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\bin\Release\primeiro programa.xml
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Release\primeiro_programa.Form1.resources
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Release\primeiro_programa.Resources.resources
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Release\primeiro programa.exe
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Release\primeiro programa.xml
+C:\Users\melque\AppData\Local\Temporary Projects\primeiro programa\obj\x86\Release\primeiro programa.pdb
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Release\primeiro programa.exe
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Release\primeiro programa.xml
+C:\Users\melque\Documents\Visual Studio 2010\Projects\primeiro programa\primeiro programa\obj\x86\Release\primeiro programa.pdb
