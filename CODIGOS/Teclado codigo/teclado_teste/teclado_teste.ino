@@ -1,8 +1,17 @@
-int portas[8]= {3,4,5,6,8,9,10,11};
-//os 4 primeiros numeros para linhas 
-//os 4 ultimos numeros para colunas
+#include <Wire.h> 
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd(0x20,16,2);  // set the LCD address to 0x20 for a 16 chars and 2 line display
 
+//int portas[8]= {13, 12, 11, 10, 7, 6, 5, 4};
+int portas[4]= {7, 6, 5, 4};
+
+//------------------------------PCF
+int _end = 39;
+int numero[8]={1,1,1,1,1,1,1,1};
+
+//------------------------------TECLADO
 String senha = "12345";
+String digitado = "";
 
 char letras[4][4] ={
 {'1','2','3','A'},
@@ -13,69 +22,98 @@ char letras[4][4] ={
 
 void setup()
 {
-for(int i =0;i<4;i++)
-  pinMode(portas[i], OUTPUT);
+  lcd.init();
+  lcd.backlight();
+for(int i =0;i<4;i++){
+  pinMode(portas[i], INPUT_PULLUP);
+}
+Serial.begin(9600);
+  lcd.clear();
+  lcd.setCursor(0,0);
+  lcd.print("Digite a senha:");
+  lcd.blink();
+  lcd.setCursor(0,1);
+  //_digWrite(0,0);
+  //Serial.print("valor:");
+  //Serial.println(_digRead(7));
+  //while(1){}
+
    
-for(int i =4;i<8;i++)
-  pinMode(portas[i], INPUT);
-   
-  Serial.begin(9600);
-  Serial.println("Aguardando acionamento das teclas...");
-  Serial.println("digite a senha com 5 caracteres");
-  Serial.println();
+  
 }
  
 void loop()
 {
   
-  verifica_tecla();  
-}
- 
- void verifica_tecla(){
-  for (int ti = 0; ti<4; ti++)
-    {
-    //Alterna o estado dos pinos das linhas
-    for(int i =0;i<4;i++)
-    digitalWrite(portas[i], 0);
-    
-    digitalWrite(portas[ti], 1);
-    //Verifica se alguma tecla da coluna 1 foi pressionada
-    if (digitalRead(portas[4]))
-    {
-      imprime_linha_coluna(ti+1, 1);
-      while(digitalRead(portas[4])){}
+  String tecla = verifica_tecla();
+  if(tecla != ""){
+    digitado += tecla;
+    digitaLinha(1,digitado);
+  }
+  if(digitado.length() == senha.length()){    
+    if(digitado == senha){
+      digitaLinha(1,"Senha correta!");
+    }else{
+      digitaLinha(1,"Senha incorreta!");
     }
- 
-    //Verifica se alguma tecla da coluna 2 foi pressionada    
-    if (digitalRead(portas[5]))
-    {
-      imprime_linha_coluna(ti+1, 2);
-      while(digitalRead(portas[5])){};
-    }
-     
-    //Verifica se alguma tecla da coluna 3 foi pressionada
-    if (digitalRead(portas[6]))
-    {
-      imprime_linha_coluna(ti+1, 3);
-      while(digitalRead(portas[6])){}
-    }
-     
-    //Verifica se alguma tecla da coluna 4 foi pressionada
-    if (digitalRead(portas[7]))
-    {
-      imprime_linha_coluna(ti+1, 4);
-      while(digitalRead(portas[7])){} 
-    }
-   }
-   delay(10); 
- }
- 
- 
-void imprime_linha_coluna(int L, int C)
-{
-Serial.println(letras[L-1][C-1]);
+    digitado = "";
+    delay(2000);
+    digitaLinha(1,"");
+  }
 }
 
-void compara_senha(){
-  
+void digitaLinha(int linha,String texto){
+    lcd.setCursor(0,linha);
+    lcd.print("                ");
+    lcd.setCursor(0,linha);
+    lcd.print(texto);
 }
+
+ 
+ String verifica_tecla(){
+   for(int i=0;i<4;i++){
+     for(int k =0;k<4;k++){
+       _digWrite(k,1);
+       //digitalWrite(portas[k], 1);
+     }
+     _digWrite(i,0);
+     //digitalWrite(portas[i], 0); //0-3
+     for(int j=0;j<4;j++){
+       //if (!digitalRead(portas[j])){
+         if (_digRead(j+4)){
+         while(_digRead(j+4)){}
+         delay(100);
+         return String(letras[i][j]);
+       }
+     }
+   }
+   return "";
+ }
+ 
+ void _digWrite(int pt, int valor){
+     numero[pt] = valor;
+        int num =
+        (numero[0]*1) +     (numero[1]*2) + 
+        (numero[2]*4) +     (numero[3]*8) + 
+        (numero[4]*16) +    (numero[5]*32) + 
+        (numero[6]*64) +    (numero[7]*128);
+    
+      Wire.beginTransmission(_end);
+      Wire.write(num);
+      Wire.endTransmission();
+}
+ 
+ int _digRead(int y){
+      Wire.requestFrom(_end,1);
+    if(Wire.available())  {
+      byte x = Wire.read();
+      //Serial.println(x,BIN);
+      for (int j = 0; j <= 7; j++){
+        if(!(x & (1 << j)) && y == j){
+          return true;
+        }
+      }
+      return false;
+    }
+}
+ 
